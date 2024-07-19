@@ -85,15 +85,53 @@ nav li a:hover{
     mix-blend-mode: multiply;
 }
 
-.text {
+.title {
     position: absolute;
-    top:50%;
-    left: 50%;
+    top:40%;
+    left: 40%;
     z-index: 100;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-family:monospace;
 }
 
-/* .image{
-    height: auto;
-    position: relative;
-    width: 800px;
-} */
+.line {
+    position: absolute;
+    top: 29%;
+    left: 12%;
+    z-index: 100;
+    text-transform: lowercase;
+    font-size: 22px;
+    color:#508C9B;
+    /* justify-content: center; */
+}
+.login-button-box{
+    position: absolute;
+    top: 65%;
+    left: 850px;
+    z-index: 100;
+    font-size: 30px;
+    width: 100px;
+    display: flex;
+    height: 45px;
+    /* justify-content: space-between; */
+    background-color: #508C9B;
+    /* border-radius: 20px;     */
+}
+.login-button-box.button {
+ 
+}
+.signin-button-box{
+    position: absolute;
+    top: 65%;
+    left: 620px;
+    z-index: 100;
+    font-size: 30px;
+    width: 100px;
+    display: flex;
+    height: 45px;
+    /* justify-content: space-between; */
+    background-color: #508C9B;
+    /* border-radius: 20px;     */
+}
